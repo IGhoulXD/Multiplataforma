@@ -41,6 +41,8 @@ kotlin {
 
                 implementation(libs.androidx.lifecycle.viewmodel)
                 implementation(libs.androidx.lifecycle.runtimeCompose)
+// commonMain
+                implementation("io.github.qdsfdhvh:image-loader:1.4.0")
 
                 implementation("io.ktor:ktor-client-core:$ktorVersion")
                 implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
